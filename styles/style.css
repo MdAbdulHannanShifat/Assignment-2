@@ -37,21 +37,41 @@ body{
   }
   .display-flex{
     display: flex;
+}
 
+  .habit-2{
+    display: flex;
+    justify-content:space-around
+  }
+  .move{
+    text-align: center;
   }
   .nav-item{
     list-style: none;
     margin-right: 25px;
   }
+  .meet-our{
+    text-align: center;
+  }
+  .six-photo{
+    background-color: rgba(48, 48, 48, 54%);
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+
+  }
   .nav-links{
-    border: 2px solid gray;
+    border: 2px solid rgba(128, 128, 128, 0.171);
     margin: 50px;
     padding: 20px;
     border-radius: 20px;
+    gap:40px;
   }
   .nav-link{
     text-decoration: none;
     font-weight: 500;
+  }
+  .imgg{
+    border-radius:150px;
   }
   .bar{
     display: none;
@@ -72,30 +92,49 @@ body{
     width: 70%;
   }
   .banner-title{
-    font-weight: 900;
-    font-size: 4rem;
+    font-weight: 800;
+    font-size: 3.5rem;
   }
+  .run-pic{
+    background-image: url("../images/run.jpg");
+    background-position: center;
+    background-size: cover;
+  height: 19rem;
+  width: 22rem;
+  border-radius: 1.125rem;
+  
+ } 
+ 
+ .run-2{
+  height: 19rem;
+  width: 22rem;
+
+ }
   .shape{
     font-family:Miama;
     font-weight: 400;
+    font-size: 4rem;
+
   }
   .btn{
     background-color: rgba(230, 83, 60, 100%);
     color: white;
-    padding: 20px 22px;
-    border-radius: 10px;
+    padding: 15px 22px;
+    border-radius: 30px;
     border: none;
+    width: 200px;
   }
 .btn-2{
     background-color: #000;
     color: white;
-    padding: 20px 22px;
-    border-radius: 10px;
+    padding: 15px 20px;
+    border-radius: 30px;
     border: 2px solid gray;
+    width: 200px;
 }
 .btn-3{ background-color: rgba(230, 83, 60, 100%);
     color: white;
-    padding: 15px 22px;
+    padding: 10px 22px;
     border-radius: 20px;
     border: none;
     }
@@ -119,8 +158,16 @@ body{
         left: 1100px;
         bottom: 345px;
         right: 20px;
+      }
+      .btn-6{
+        background-color: rgba(230, 83, 60, 100%);
+        color: white;
+        padding: 8px 50px;
+        
+        border-radius: 30px;
+        border: none;
 
-    }
+      }
     #id{
         font-size: 4rem;
         font-weight: 700;
@@ -129,8 +176,44 @@ body{
     font-weight: 900;
     font-size: 1.50rem;
 }
+.habits{
+    text-align: center;
+}
 
+.run{
+  background: rgba(48, 48, 48, 54%);
+  margin: 10px 50px;
+  border-radius: 10px;
+  justify-content:space-between;
+  padding: 20px;
+  gap:10px;
+}
+.runs{
+  padding: 5px 30px;
 
+  width: 50%;
+}
+.foot{
+  background-color: rgba(48, 48, 48, 54%) ;
+}
+.get{
+  font-size:x-large;
+}
+.large{
+  font-size: large;
+}
+.footer{
+  justify-content: space-evenly;
+  gap: 2px;
+}
+.at-last{
+  text-align: center;
+  border-top: 2px solid rgba(128, 128, 128, 0.09);
+  padding-bottom: 2px;
+}
+.we{
+ font-size:smaller;
+}
 @media (max-width:576px) {
     .nav-links{
         display: none;
@@ -168,6 +251,29 @@ body{
     padding-top: 60px;
     font-size: 20px;
   }
+  .habit-2{
+    display: grid;
+    grid-template-rows: none;
+  }
+  .footer{
+   
+    display: grid;
+    grid-template-columns: auto;
+    flex-direction: column;
 
+  }
+  
+  .run{
+  display: grid;
+  padding: 10px 10px;
+  margin-left: 1px;
+  margin-right:0.5px;
+  }
+  .run-pic{
+    height: 16rem;
+  }
+  .btn-6{
+   width: 100;
+  }
 
 }
