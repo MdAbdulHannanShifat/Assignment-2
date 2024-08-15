@@ -17,10 +17,17 @@ body{
       "slnt" 0;
   }
   .brand{
-    font-style: italic;
      font-weight: 700;
      font-size: 3rem; 
-  }
+     font-style: italic;
+  }   
+  .brand-2{
+    font-weight: 700;
+    font-size: 3rem; 
+    font-style: italic;
+ }   
+
+
   .white{
     color: white;
   }
@@ -380,6 +387,9 @@ input, select,button{
   }
   .brand{
     margin-left:-5px;
+  }
+  .brand-2{
+    margin-left:50px;
   }
   #btn-4{
     left: 20px;
