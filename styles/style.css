@@ -368,6 +368,9 @@ input, select,button{
   border:2px solid gray;
   margin-left: 70px;
 }
+.mile{
+  font-size:2.50rem;
+}
 
 
 @media (max-width:576px) {
